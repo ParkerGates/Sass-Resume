@@ -1,0 +1,20 @@
+/*Variables********************************************************/
+$opaqueBlue: rgba(51, 102, 153, 0.7);
+$white: #ffffff;
+$lightGray: #e6e6e6;
+$gray: #999999;
+$darkGray: #404040;
+
+
+/*Mixins***********************************************************/
+@mixin textSetup($space){
+    font-size: $space;
+    color: $darkGray;
+}
+        /*@include  textSetup(10px);*/
+
+/*Extend***********************************************************/
+%padRT{
+    padding: 15px 60px 0px 60px;
+}
+        /*@extend %panRT*/

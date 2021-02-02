@@ -1,0 +1,152 @@
+/*Variables********************************************************/
+/*Mixins***********************************************************/
+/*@include  textSetup(10px);*/
+/*Extend***********************************************************/
+main .main__left, main .main__right {
+  padding: 15px 60px 0px 60px;
+}
+
+/*@extend %panRT*/
+/*Classes**********************************************************/
+.h2__divider {
+  display: inline-block;
+  border-bottom: 6px solid #404040;
+  width: 85px;
+}
+
+.contact__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__container p {
+  margin: 7px 0px 5px 10px;
+}
+
+.contact__container i {
+  margin: 10px 0px 0px;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+/*Body*************************************************************/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 1000px;
+  background-color: #1c1c1e;
+  font-family: 'Lato', sans-serif;
+}
+
+.resume {
+  width: 1000px;
+  -webkit-box-shadow: 0px 0px 50px #464646;
+          box-shadow: 0px 0px 50px #464646;
+}
+
+/*Containers***************************************************/
+header {
+  height: 275px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../images/buildings.jpg);
+  background-size: 100%;
+  background-position: 0vw -5vw;
+  background-color: rgba(51, 102, 153, 0.7);
+  background-blend-mode: color-burn;
+}
+
+header img {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 50px #404040;
+          box-shadow: 0px 0px 50px #404040;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 55px;
+  margin: 0px 0px 15px;
+}
+
+header h2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 900px;
+}
+
+main .main__left {
+  background-color: #ffffff;
+  width: 350px;
+}
+
+main .main__left .left__profile p {
+  margin-top: 15px;
+}
+
+main .main__left .left__contact span {
+  margin: 10px 0px 15px;
+}
+
+main .main__right {
+  background-color: #e6e6e6;
+}
+
+main .main__right .right__skills {
+  margin-bottom: 40px;
+}
+
+main h2 {
+  font-size: 20px;
+  color: #404040;
+  letter-spacing: 10px;
+  margin-bottom: 0px;
+}
+
+main h3 {
+  font-size: 20px;
+  color: #404040;
+  margin-bottom: 6px;
+}
+
+main h3 span {
+  color: black;
+}
+
+main p {
+  font-size: 19px;
+  color: #404040;
+  line-height: 24px;
+}
+
+main li {
+  font-size: 19px;
+  color: #404040;
+  margin-bottom: 5px;
+}
+
+main ul {
+  padding-left: 18px;
+}
+/*# sourceMappingURL=style.css.map */
